@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mySpace_basicInformation_page</title>
+    <link rel="stylesheet" type="text/css" href="CSS/mySpace_basicInformation.css">
+</head>
+<body>
+    <header id="header">
+        <img id="logo" src="image/logo.png" width="123px" height="49px">
+        <div class="nav">
+            <ul>
+                <li><a href="#">发现区</a></li>
+                <li><a href="#">体验区</a></li>
+                <li><a href="#">购物区</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="搜索你感兴趣的内容">
+            <a href="#"><img src="image/search.png" width="25px" height="30px" alt=""/></a>
+        </div>
+        <div class="header_user">
+            <a href="#"><img src="image/head1.png" width="62px" height="62px"></a>
+            <a id="user_cancel" href="#">注销</a>
+        </div>
+    </header>
+    <div id="container">
+        <div class="clear"></div>
+        <div class="out_body">
+            <div class="colorPiece"></div>
+            <p class="basic">&nbsp基本信息</p>
+            <div class="clear"></div>
+
+
+            <div class="in_body">
+                <ul>
+                    <div class="basic_li">
+                        <li>
+                            <p>我的头像&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                            <a href="#"><img src="image/head1.png" width="98px" height="98px"></a>
+                            <p class="hint">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp点击头像可以更换头像</p>
+                        </li>
+                    </div>
+                    <div class="basic_li">
+                        <li>
+                            <p>我的用户名&nbsp&nbsp&nbsp&nbsp</p>
+                            <div class="centerform">
+                                <input type="text" placeholder="user_001">
+                            </div>
+                            <img class="centerimg" src="image/编辑.png" width="20px" height="21px">
+                            <p class="hint">用户可以且仅修改一次，用户名可以是中文，英文，数字，下划线</p>
+                        </li>
+                    </div>
+                    <div class="basic_li">
+                        <li>
+                            <p>修改密码&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                            <div class="centerform">
+                                <input type="text" value="">
+                            </div>
+                            <a href="mySpace_changePassword.html"><img class="centerimg" src="image/编辑.png" width="20px" height="21px"></a>
+                            <p class="hint">密码为8-16位，须以字母为开头，且组合可以仅为字母、数字、下划线</p>
+                        </li>
+                    </div>
+                    <div class="basic_li">
+                        <li>
+                            <p>修改手机&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                            <div class="centerform">
+                                <input type="text" value="">
+                            </div>
+                            <img class="centerimg" src="image/编辑.png" width="20px" height="21px">
+                            <p class="hint">手机号码目前仅支持中国大陆</p>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="returnButton"><a  href="my_space.html"> &lt回到我的空间</a></div>
+        </div>
+    </div>
+</body>
+</html>

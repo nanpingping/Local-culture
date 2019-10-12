@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>发现区——内容</title>
+<link href="CSS/found_content.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header id="header"> <img id="logo" src="image/logo.png" width="123px" height="49px">
+  <div class="nav">
+    <ul>
+      <li><a href="recommend.html" >发现区</a></li>
+      <li><a href="enjoy_palce.html" >体验区</a></li>
+      <li><a href="buy.html" >购物区</a></li>
+    </ul>
+  </div>
+  <div class="search">
+    <input type="text" placeholder="搜索你感兴趣的内容">
+    <a href="#"><img src="image/search.png" width="26" height="30" alt=""/></a> </div>
+  <div class="header_user"> <a href="#"><img src="image/head1.png" width="62" height="62" alt=""/></a> <a id="user_cancel" href="#">注销</a> </div>
+</header>
+<div id="content">
+  <div id="text">
+    <p class="p1">“国字号”非遗义诊送健康</p>
+    <a class="p3" href="my_collection.html">收藏</a>
+    <br>
+    <p class="p2">2018年5月10日 18:20</p>
+    <br>
+    <p class="p2">&nbsp;&nbsp;在2019年文化和自然遗产日即将到来之际，为营造保护文化遗产的良好氛围，提高人们对文化遗产保护重要性的认识，动员全社会共同参与、关注和保护文化遗产，增强人们对文化遗产的保护意识，积极传承非物质文化遗产这一中华瑰宝。近日，国家级非物质文化遗产代表性项目——方回春堂传统膏方制作工艺，走进上城区行政服务中心，为中心的办事群众和工作人员开展义诊服务。</p>
+    <p class="p2">&nbsp;&nbsp;义诊现场，方回春堂副主任医师——祝桂红免费为市民们把脉问诊，分析健康情况，详细讲解如何预防身体疾病等健康知识，解答问诊人员提出的健康咨询问题，为市民的健康保驾护航。除此之外，方回春堂还准备了端午特制香囊。此次义诊服务，让更多人能够近距离接触、认识“方回春堂传统膏方制作工艺”这一国家级非遗项目，宣传中医药健康理念，普及中医药知识，让中医药更好地惠及千家万户。</p>
+  </div>
+  <div id="common">
+    <p class="c1">评论</p>
+    <a class="c2" href="javascript:openCommon();">发布评论</a>
+    <br>
+    <div class="common1">
+      <p class="t1">小a</p>
+      <p class="t2">2019/1/20</p>
+      <br>
+      <p class="t3">好、顶、赞</p>
+    </div>
+    <div id="line"></div>
+    <div class="common2">
+      <p class="t1">小a</p>
+      <p class="t2">2019/1/20</p>
+      <br>
+      <p class="t3">好、顶、赞</p>
+    </div>
+    <div id="line"></div>
+    <div class="common2">
+      <p class="t1">小a</p>
+      <p class="t2">2019/1/20</p>
+      <br>
+      <p class="t3">好、顶、赞</p>
+    </div>
+    <div id="line"></div>
+    <div class="common2">
+      <p class="t1">小a</p>
+      <p class="t2">2019/1/20</p>
+      <br>
+      <p class="t3">好、顶、赞</p>
+    </div>
+    <div id="line"></div>
+  </div>
+</div>
+
+<script>
+function openCommon(){
+	var hideobj=document.getElementById("hidebg");
+   hidebg.style.display="block";  //显示隐藏层
+   hidebg.style.height=document.body.clientHeight+"px";  //设置隐藏层的高度为当前页面高度
+	document.getElementById("send_common").style.display="";
+}
+function closeCommon(){
+	document.getElementById("hidebg").style.display="none";
+   document.getElementById("send_common").style.display="none";
+}
+</script>
+<div id="hidebg" style="display:none;"></div>
+<div id="send_common" style="display:none;"> 
+	<p class="s1">发表评论</p>
+	<a id="closeButton" href="javascript:closeCommon();"><img src="image/gx.png" width="24" height="24" alt="" /></a>
+	<div class="kuang"></div>
+	<p class="s2">发表</p>
+</div>
+</body>
+</html>

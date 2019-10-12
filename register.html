@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>注册新账号</title>
+    <link href="CSS/register.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<video width="1091px" height="911px" autoplay loop poster="image/bandicam.png" class="bgvid" id="bgvid">
+    <source src="video/bandicam.mp4"  type="video/mp4">
+</video>
+<header id="header"> <img id="logo" src="image/logo.png" width="123px" height="49px">
+    <div class="nav">
+        <ul>
+      <li><a href="recommend.html" >发现区</a></li>
+      <li><a href="enjoy_palce.html" >体验区</a></li>
+      <li><a href="buy.html" >购物区</a></li>
+        </ul>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="搜索你感兴趣的内容">
+        <a href="#"><img src="image/search.png" width="26" height="30" alt=""/></a> </div>
+    <div class="header_user"> <a id="user_cancel" href="#">登录</a> </div>
+</header>
+<div id="register">
+<img src="image/top.png" width="486" height="129" alt=""/>
+<a id="closeButton" href="javascript:closeLogin();"><img src="image/x.png" width="24" height="24" alt=""/></a>
+<div id="register_from">
+    <form method="post" >
+        <p class="label">用户名</p>
+        <input type="text" name="username" >
+        <br>
+        <br>
+        <br>
+        <p class="label">密码</p>
+        <input type="password" name="password" >
+            <br>
+            <br>
+            <br>
+        <p class="label">手机号码</p>
+            <input type="text" name="phone_number" >
+        <br>
+        <br>
+        <br>
+        <p class="label">手机接收验证码</p>
+            <input type="text" name="verefication_code" >
+    </form>
+    <p class="label" id="get_verefication">| 获取验证码</p>
+    <a id="a1" href="home_page.html"><p>注册</p></a>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+@charset "utf-8";
+body{
+	width: 1366px;
+	height: 768px;
+	margin: 0 auto;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#header {
+    width: 1366px;
+    height: 100px;
+    margin: 0px auto;
+}
+#logo {
+    margin-top: 37px;
+    margin-left: 61px;
+    float: left;
+}
+.nav {
+    padding-top: 47px;
+    position: relative;
+    right: 37px;
+}
+#header ul {
+    float: left;
+    list-style-type: none;
+    font-size: 22px;
+    font-family: Microsoft YaHei UI;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0,0,0,1);
+    opacity: 1;
+}
+#header li {
+    display: inline;
+    margin-left: 82px;
+}
+#header ul li a {
+    text-decoration: none;
+}
+#header ul li a:link {
+    color: #000000;
+}
+#header ul li a:hover {
+    color: #888888;/*background-image: url("../image/button1.png");*//*background-repeat: no-repeat;*/
+}
+.search {
+    width: 412px;
+    height: 47px;
+    margin-left: 65px;
+    float: left;
+    position: relative;
+    bottom: 10px;
+    right: 37px;
+}
+.search input {
+    width: 392px;
+    height: 47px;
+    background: rgba(229,229,229,0.41);
+    opacity: 1;
+    border-radius: 24px;
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(94,120,99,1);
+    text-indent: 33px;
+}
+.search img {
+    position: absolute;
+    left: 342px;
+    bottom: 8px;
+}
+.header_user {
+    float: right;
+    margin-right: 91px;
+    position: relative;
+    bottom: 20px;
+}
+.header_user img {
+    margin-right: 34px;
+}
+#user_cancel {
+    position: relative;
+    bottom: 18px;
+    text-decoration: none;
+    width: 44px;
+    height: 28px;
+    font-size: 22px;
+    font-family: Microsoft YaHei UI;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0,0,0,1);
+    opacity: 1;
+}
+#user_cancel:link {
+    color: #000000;
+}
+#user_cancel:hover {
+    color: #888888;/*background-image: url("../image/button1.png");*//*background-repeat: no-repeat;*/
+}
+.title {
+    width: 1366px;
+    height: 100px;
+}
+.p1 {
+    font-size: 30pt;
+    font-family: PingFang SC;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(18,200,48,1);
+    opacity: 1;
+    float: left;
+    padding-left: 80px;
+    margin-top: 50px;
+}
+.p2 {
+    float: left;
+    margin-top: 60px;
+    color: #B7B7B7;
+    font-family: PingFang SC;
+    font-size: 16pt;
+}
+.content {
+    width: 566px;
+    height: 220px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.c1 {
+    color: #000000;
+    font-family: Microsoft YaHei UI;
+    font-size: 30pt;
+}
+.c2 {
+    color: #ACACAC;
+    font-family: PingFang SC;
+    font-size: 10pt;
+}
+.c3 {
+    color: #12C830;
+    font-family: PingFang SC;
+    font-size: 10pt;
+	float: right;
+}
+
+#line{
+	width: 566px;
+    margin-left: 90px;
+	border:1px solid #C9C9C9;
+}

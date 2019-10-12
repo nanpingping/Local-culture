@@ -1,0 +1,222 @@
+@charset "utf-8";
+body{
+	width: 1366px;
+	height: 768px;
+	margin: 0 auto;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#header {
+    width: 1366px;
+    height: 100px;
+    margin: 0px auto;
+}
+#logo {
+    margin-top: 37px;
+    margin-left: 61px;
+    float: left;
+}
+.nav {
+    padding-top: 47px;
+    position: relative;
+    right: 37px;
+}
+#header ul {
+    float: left;
+    list-style-type: none;
+    font-size: 22px;
+    font-family: Microsoft YaHei UI;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0,0,0,1);
+    opacity: 1;
+}
+#header li {
+    display: inline;
+    margin-left: 82px;
+}
+#header ul li a {
+    text-decoration: none;
+}
+#header ul li a:link {
+    color: #000000;
+}
+#header ul li a:hover {
+    color: #888888;/*background-image: url("../image/button1.png");*//*background-repeat: no-repeat;*/
+}
+.search {
+    width: 412px;
+    height: 47px;
+    margin-left: 65px;
+    float: left;
+    position: relative;
+    bottom: 10px;
+    right: 37px;
+}
+.search input {
+    width: 392px;
+    height: 47px;
+    background: rgba(229,229,229,0.41);
+    opacity: 1;
+    border-radius: 24px;
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(94,120,99,1);
+    text-indent: 33px;
+}
+.search img {
+    position: absolute;
+    left: 342px;
+    bottom: 8px;
+}
+.header_user {
+    float: right;
+    margin-right: 91px;
+    position: relative;
+    bottom: 20px;
+}
+.header_user img {
+    margin-right: 34px;
+}
+#user_cancel {
+    position: relative;
+    bottom: 18px;
+    text-decoration: none;
+    width: 44px;
+    height: 28px;
+    font-size: 22px;
+    font-family: Microsoft YaHei UI;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0,0,0,1);
+    opacity: 1;
+}
+#user_cancel:link {
+    color: #000000;
+}
+#user_cancel:hover {
+    color: #888888;/*background-image: url("../image/button1.png");*//*background-repeat: no-repeat;*/
+}
+
+.space{
+	width: 1214px;
+	height: 202px;
+	background-image:url("../image/space2.png");
+	margin-left: 62px;
+	margin-top: 40px;
+	opacity:0.5;
+}
+
+.space img{
+	margin-left: 71px;
+	margin-top: 51px;
+}
+
+.p1{
+    color: #FFFFFF;
+    font-family: Microsoft YaHei UI;
+    font-size: 18pt;
+	margin-left: 230px;
+	margin-top: -70px;
+}
+
+.tiezi{
+	width: 1366px;
+	height: 400px;
+	margin-top: 100px;
+}
+.left{
+	width: 580px;
+	height: 400px;
+	float: left;
+}
+.right{
+	width: 500px;
+	height: 250px;
+	float: left;
+	margin-left: 200px;
+}
+.show{
+	width: 180px;
+	height: 170px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 10px;
+	background: #3300FF；
+}
+
+.show2{
+	width: 180px;
+	height: 170px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 70px;
+	background: #3300FF；
+}
+
+.p1 {
+    font-size: 15pt;
+    font-family: PingFang SC;
+    color: #000000;
+    float: left;
+	font-weight: Heavy;
+	margin-left: 60px;
+	margin-top: -15px;
+}
+
+.p2{
+	font-size: 15pt;
+    font-family: PingFang SC;
+    color: #FFFFFF;
+	font-weight: Heavy;
+	margin-left: 230px;
+	margin-top: -50px;
+}
+
+.content {
+    width: 566px;
+    height: 220px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.c1 {
+    color: #000000;
+    font-family: Microsoft YaHei UI;
+    font-size: 18pt;
+	font-weight: bold;
+}
+.c2 {
+    color: #ACACAC;
+    font-family: PingFang SC;
+    font-size: 10pt;
+}
+.c3 {
+    color: #12C830;
+    font-family: PingFang SC;
+    font-size: 10pt;
+	float: right;
+}
+
+#line{
+	width: 566px;
+    margin-left: 90px;
+	border:1px solid #C9C9C9;
+}
+
+.b1{
+	color: #000000;
+    font-family: PingFang SC;
+    font-size: 15pt;
+	font-weight: Heavy;
+}
+.b2{
+	color: #000000;
+    font-family: Microsoft YaHei UI;
+    font-size: 10pt;
+	font-weight: Regular;
+	margin-left: 30px;
+}

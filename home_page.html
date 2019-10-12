@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>home_page</title>
+<link href="CSS/home.css" rel="stylesheet" type="text/css">
+<link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+* {
+    box-sizing: border-box;
+}
+div.search {
+    padding: 10px 0;
+}
+input, button {
+    border: none;
+    outline: none;
+}
+input {
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+}
+form {
+    position: relative;
+    width: 1000px;
+	height: 0px;
+    margin: 0 auto;
+}
+button {
+    height: 42px;
+    width: 42px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.bar7 form {
+    height: 0px;
+	padding-top: -100px;
+}
+.bar7 input {
+    width: 250px;
+    border-radius: 42px;
+    border: 2px solid #324B4E;
+    background: #EFEFEF;
+	opacity:0.56;
+    transition: .3s linear;
+    float: right;
+}
+.bar7 input:focus {
+    width: 300px;
+}
+.bar7 button {
+    background: none;
+    top: -2px;
+    right: 0;
+}
+.bar7 button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #324b4e;
+}
+</style>
+</head>
+
+<body>
+<video width="1091px" height="911px" autoplay loop poster="image/bandicam.png" class="bgvid" id="bgvid">
+  <source src="video/bandicam.mp4"  type="video/mp4">
+</video>
+<header id="header">
+  <div id="logo"><img src="image/logo.png" width="123" height="49" alt=""/></div>
+  <div id="nav1">
+    <ul>
+      <li><a href="recommend.html" >发现区</a></li>
+      <li><a href="enjoy_palce.html" >体验区</a></li>
+      <li><a href="buy.html" >购物区</a></li>
+      <li><a href="javascript:openLogin();">登录</a></li>
+    </ul>
+  </div>
+  <div class="search bar7">
+    <form>
+      <input type="text" placeholder="搜索你感兴趣的内容">
+      <button type="submit"></button>
+    </form>
+  </div>
+</header>
+<script>
+function openLogin(){
+	document.getElementById("login").style.display="";
+}
+function closeLogin(){
+   document.getElementById("login").style.display="none";
+}
+</script>
+<p class="p1">浙江非物质文化体验</p><br>
+<p class="p2">文化与教育并重</p>	
+<div id="login" style="display: none;">
+  <img src="image/top.png" width="486" height="129" alt=""/>
+  <a id="closeButton" href="javascript:closeLogin();"><img src="image/x.png" width="24" height="24" alt=""/></a>
+  <div id="login_from">
+    <form method="post" >
+      <p class="label">账号</p>
+    <input type="text" name="username" ><br><br><br>
+    <p class="label">密码</p>
+    <input type="password" name="password" >
+  </form>
+    <a id="a1" href="#"><img src="image/button.png"></img></a>
+    <br>
+    <p><a id="p1" href="forget_password.html"><u>忘记密码？</u></a></p>
+
+    <br>
+    <p><a id="p2" href="register.html">没有账号？<u>立即注册</u></a></p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,258 @@
+@charset "utf-8";
+body {
+    width: 1366px;
+    height: 768px;
+    margin: 0 auto;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#header {
+    width: 1366px;
+    height: 100px;
+    margin: 0px auto;
+}
+#logo {
+    margin-top: 37px;
+    margin-left: 61px;
+    float: left;
+}
+.nav {
+    padding-top: 47px;
+    position: relative;
+    right: 37px;
+}
+#header ul {
+    float: left;
+    list-style-type: none;
+    font-size: 22px;
+    font-family: Microsoft YaHei UI;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0,0,0,1);
+    opacity: 1;
+}
+#header li {
+    display: inline;
+    margin-left: 82px;
+}
+#header ul li a {
+    text-decoration: none;
+}
+#header ul li a:link {
+    color: #000000;
+}
+#header ul li a:hover {
+    color: #888888;/*background-image: url("../image/button1.png");*//*background-repeat: no-repeat;*/
+}
+.search {
+    width: 412px;
+    height: 47px;
+    margin-left: 65px;
+    float: left;
+    position: relative;
+    bottom: 10px;
+    right: 37px;
+}
+.search input {
+    width: 392px;
+    height: 47px;
+    background: rgba(229,229,229,0.41);
+    opacity: 1;
+    border-radius: 24px;
+    border-width: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(94,120,99,1);
+    text-indent: 33px;
+}
+.search img {
+    position: absolute;
+    left: 342px;
+    bottom: 8px;
+}
+.header_user {
+    float: right;
+    margin-right: 91px;
+    position: relative;
+    bottom: 20px;
+}
+.header_user img {
+    margin-right: 34px;
+}
+#user_cancel {
+    position: relative;
+    bottom: 18px;
+    text-decoration: none;
+    width: 44px;
+    height: 28px;
+    font-size: 22px;
+    font-family: Microsoft YaHei UI;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(0,0,0,1);
+    opacity: 1;
+}
+#user_cancel:link {
+    color: #000000;
+}
+#user_cancel:hover {
+    color: #888888;/*background-image: url("../image/button1.png");*//*background-repeat: no-repeat;*/
+}
+#content {
+    width: 1366px;
+    height: 566px;
+    margin-top: 50px;
+}
+#text {
+    float: left;
+    width: 811px;
+    height: 566px;
+    margin-left: 65px;
+}
+.p1 {
+    color: #000000;
+    font-family: Microsoft YaHei UI;
+    font-size: 28pt;
+    font-weight: bold;
+}
+.p2 {
+    color: #ACACAC;
+    font-family: PingFang SC;
+    font-size: 15pt;
+    font-weight: Heavy;
+}
+.p3{
+	float: right;
+	color: #12C830;
+    font-family: PingFang SC;
+    font-size: 15pt;
+    font-weight: Heavy;
+	text-decoration: none;
+}
+#common {
+    float: left;
+    width: 280px;
+    height: 566px;
+	margin-top: 50px;
+	margin-left: 120px;
+}
+
+.c1{
+	float: left;
+	color: #12C830;
+    font-family: Microsoft YaHei UI;
+    font-size: 15pt;
+    font-weight: Regular;
+	width: 50px;
+}
+.c2{
+    float: right;
+    color: #12C830;
+    font-family: PingFang SC;
+    font-size: 10pt;
+    font-weight: Heavy;
+    text-decoration: none;	
+}
+.common1{
+	width: 280px;
+	height: 80px;
+	margin-top: 45px;
+}
+.common2{
+	width: 280px;
+	height: 80px;
+}
+.t1{
+	float: left;
+	width: 30pt;
+	color: #5E7863;
+    font-family: Microsoft YaHei UI;
+    font-size: 12pt;
+    font-weight: Regular;
+	margin-top: 20px;
+}
+
+.t2{
+	float: left;
+	width: 65pt;
+	color: #12C830;
+    font-family: Microsoft YaHei UI;
+    font-size: 10pt;
+    font-weight: Regular;
+	margin-top: 20px;
+}
+.t3{
+	width: 100pt;
+	color: #000000;
+    font-family: Microsoft YaHei UI;
+    font-size: 11pt;
+    font-weight: Regular;
+	margin-top: 25px;
+}
+#line{
+	width: 280px;
+	border:1px solid #B7B7B7;
+}
+
+
+
+#send_common {
+    POSITION: absolute;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 300px;
+    border-radius: 30px;
+    margin-left: -250px;
+    margin-top: -200px;
+    text-align: center;
+    background-color:#FFFFFF;
+	cursor:pointer;
+	z-Index:3;
+}
+
+#closeButton{
+    position: absolute;
+    right: 52px;
+    top: 40px;
+}
+
+.s1{
+	float: left;
+	width: 100px;
+	color: #12C830;
+    font-family: PingFang SC;
+    font-size: 15pt;
+    font-weight: Heavy;
+	margin: 35px;
+	
+}
+
+.s2{
+	float:right;
+	width: 100px;
+	color: #12C830;
+    font-family: PingFang SC;
+    font-size: 15pt;
+    font-weight: Heavy;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+.kuang{
+	width: 400px;
+	height: 150px;
+	border: #707070 solid 1px;
+	margin-top: 80px;
+	margin-left: 45px;
+}
+
+#hidebg { position:absolute;left:0px;top:0px;
+      background-color:#000;
+      width:100%;  /*宽度设置为100%，这样才能使隐藏背景层覆盖原页面*/
+      filter:alpha(opacity=60);  /*设置透明度为60%*/
+      opacity:0.6;  /*非IE浏览器下设置透明度为60%*/
+      display:none; /* //www.jb51.net */
+      z-Index:2;}

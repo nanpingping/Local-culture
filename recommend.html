@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>新闻推荐</title>
+<link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link href="Swipe-master/style.css" rel="stylesheet">
+<style>
+/* Swipe 2 required styles */
+
+.swipe {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+    max-width: 753px;
+    margin: 0 auto;
+    _width: 753px;
+}
+.swipe-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.swipe-wrap div {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+#pager em {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+    color: #333;
+    font-style: normal;
+}
+#pager em.on {
+    color: #12C830;
+}
+</style>
+<link href="CSS/recommend.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header id="header"> <img id="logo" src="image/logo.png" width="123px" height="49px">
+  <div class="nav">
+    <ul>
+      <li><a href="recommend.html" >发现区</a></li>
+      <li><a href="enjoy_palce.html" >体验区</a></li>
+      <li><a href="buy.html" >购物区</a></li>
+    </ul>
+  </div>
+  <div class="search">
+    <input type="text" placeholder="搜索你感兴趣的内容">
+    <a href="search_result.html"><img src="image/search.png" width="26" height="30" alt=""/></a> </div>
+  <div class="header_user"> <a href="my_space.html"><img src="image/head1.png" width="62" height="62" alt=""/></a> <a id="user_cancel" href="mySpace_ basicInformation.html">注销</a> </div>
+</header>
+<div id="block">
+  <div id="left">
+    <div id="mySwipe" class="swipe" style="visibility: visible;">
+      <div class="swipe-wrap" style="width: 2259px;">
+        <div data-index="0" style="width: 753px; left: 0px; transition-duration: 0ms; transform: translate(753px, 0px) translateZ(0px);"> <img src="image/buy_slices/l1.png" width="753" height="231" alt=""/></div>
+        <div data-index="1" style="width: 753px; left: -753px; transition-duration: 300ms; transform: translate(-753px, 0px) translateZ(0px);"> <img src="image/buy_slices/l2.png" width="753" height="231" alt=""/></div>
+        <div data-index="2" style="width: 753px; left: -1506px; transition-duration: 300ms; transform: translate(0px, 0px) translateZ(0px);"> <img src="image/buy_slices/l3.png" width="753" height="231" alt=""/></div>
+      </div>
+    </div>
+    <div style="text-align:center;padding-top:20px;">
+      <div id="pager"> <em class=" " data-tab="0">1</em> <em data-tab="1" class=" ">2</em> <em data-tab="2" class="on">3</em> </div>
+    </div>
+    <!-- <script src="jquery.js"></script>--> 
+    <script src="Swipe-master/swipe.js"></script> 
+    <script>
+// pure JS
+// var elem = document.getElementById('mySwipe');
+var mySwipe = Swipe(document.getElementById('mySwipe'), {
+  // startSlide: 4,
+  auto: 3000,
+  // continuous: true,
+  // disableScroll: true,
+  // stopPropagation: true,
+  callback: function(index, element) {
+    slideTab(index);
+  }
+  // transitionEnd: function(index, element) {}
+});
+
+var bullets = document.getElementById('pager').getElementsByTagName('em');
+for (var i=0; i < bullets.length; i++) {
+
+  var elem = bullets[i];
+  elem.setAttribute('data-tab', i);
+  elem.onclick = function(){
+    mySwipe.slide(parseInt(this.getAttribute('data-tab'), 10), 500);
+  }
+}
+//楂樹寒褰撳墠鏁板瓧瀵艰埅
+function slideTab(index){
+  var i = bullets.length;
+  while (i--) {
+    bullets[i].className = bullets[i].className.replace('on',' ');
+  }
+  bullets[index].className = 'on';
+};
+
+
+(function() {
+    
+  var win = window,
+      doc = win.document;
+
+  // If there's a hash, or addEventListener is undefined, stop here
+  if ( !location.hash || !win.addEventListener ) {
+
+    //scroll to 1
+    window.scrollTo( 0, 1 );
+    var scrollTop = 1,
+
+    //reset to 0 on bodyready, if needed
+    bodycheck = setInterval(function(){
+      if( doc.body ){
+        clearInterval( bodycheck );
+        scrollTop = "scrollTop" in doc.body ? doc.body.scrollTop : 1;
+        win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+      } 
+    }, 15 );
+
+    if (win.addEventListener) {
+      win.addEventListener("load", function(){
+        setTimeout(function(){
+          //reset to hide addr bar at onload
+          win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+        }, 0);
+      }, false );
+    }
+  }
+
+})();
+</script>
+	
+	<div id="foot">
+  <p class="f1">地区</p>
+  <p class="place">&nbsp;&nbsp;&nbsp;&nbsp;杭州&nbsp;&nbsp;&nbsp;&nbsp;湖州&nbsp;&nbsp;&nbsp;&nbsp;嘉兴&nbsp;&nbsp;&nbsp;&nbsp;金华&nbsp;&nbsp;&nbsp;&nbsp;宁波&nbsp;&nbsp;&nbsp;&nbsp;舟山</p>
+</div>
+	 <div class="button"><a href="found_place.html"><img src="image/bt.png" width="100" height="40" alt=""/></a></div>
+	 <div class="title"><p class="t1">推荐新闻</p></div>
+	 <div class="content">
+  <p class="c1">“国字号”非遗义诊送健康</p>
+  <br>
+  <p class="c2">2019年5月12日 18：20</p>
+  <br>
+  <p class="c2">在2019年文化和自然遗产日即将到来之际，为营造保护文化遗产的良好氛围，提高人们对文化遗产保护重要性的认识，动员全社会共同参与、关注和保护文化遗产，增强人们对文化遗产的保护意识，积极传承非物质文化遗产这一中华瑰宝。近日，国家级非物质文化遗产代表性项目——方回春堂传统膏方制作工艺，走进上城区行政服务中心，为中心的办事群众和工作人员开展义诊服务。 </p><br>
+  <a class="c3" href="found_content.html">>>查看详情</a>
+</div>
+
+</div>
+	  <div id="rank">
+    <p id="title">宝贝排行</p>
+    <div id="title2"><img src="image/rank.png" width="320" height="400" alt=""/></div>
+  </div>
+</body>
+</html>

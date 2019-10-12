@@ -1,0 +1,430 @@
+@charset "utf-8";
+body{
+	width: 1000px;
+	height: 700px;
+}
+.public-container {
+    height: 100px;
+    width: 200px;
+}
+.public-background {
+    height : 200px;
+    width : 78px;
+}
+.private-ground {
+    width : 79%;
+    height: 600px;
+    margin-left: 152px;
+    margin-right: 152px;
+}
+.private-ground1 {
+    width : 32%;
+    height: 600px;
+}
+.private-ground2 {
+    width : 68%;
+    height: 600px;
+    float: right;
+    margin-top: -600px;
+}
+.title {
+    width: 1135px;
+    height: 71px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top : -70px;
+}
+h1 {
+    font: 18px "微软雅黑";
+    font-weight: 510;
+    color: #CB1A1D;
+}
+h2 {
+    font: 27px "微软雅黑";
+    font-weight: 520;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 510;
+    font: 19px "微软雅黑";
+}
+h4 {
+    color: #49F120;
+    font: 10px;
+    font-weight: 250;
+}
+h5 {
+    color: #1DAC0C;
+    font: 25px "";
+}
+li {
+    list-style: none;
+}
+.nav1 {
+    margin-right: 64px;
+    float: left;
+}
+.nav1-title {
+    width: 200px;
+    height: 60px;
+    color: aliceblue;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+.nav1_active {
+    position: relative;
+    left: 50px;
+    z-index: 1;
+}
+li a:hover {
+    background: #3EEB37;
+    display: block;
+}
+.list-title {
+    margin-top: 50px;
+    width: 70%;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.list_active {
+    position: relative;
+    z-index: 1;
+    width: 250px;
+    height: 45px;
+    margin-left: 90px;
+}
+.move {
+    padding-top: 1px;
+    margin-top: 80px;
+}
+.back {
+    width: 100%;
+    height: 68px;
+    z-index: 1;
+    float: left;
+    margin-left: -280px;
+    margin-top: -20px;
+}
+.common {
+    color: dimgrey;
+    width: 660px;
+    height: 70px;
+    z-index: 1;
+    margin-top: 60px;
+    text-align: center;
+    margin-right: 209px;
+    margin-left: 209px;
+}
+.name1 {
+    width: 670px;
+    height: 130px;
+    z-index: 1;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 40px;
+    line-height: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.name2 {
+    width: 670px;
+    height: 130px;
+    z-index: 1;
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-left: 40px;
+    line-height: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.name3 {
+    width: 670px;
+    height: 130px;
+    z-index: 1;
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-left: 40px;
+    line-height: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.lin1 {
+    width: 270px;
+    height: 30px;
+    margin-left: 125px;
+    margin-top: -105px;
+}
+.lin1f {
+    width: 270px;
+    height: 30px;
+    margin-left: 125px;
+    margin-top: -105px;
+}
+.lin1s {
+    width: 270px;
+    height: 30px;
+    margin-left: 125px;
+    margin-top: -105px;
+}
+.lin2 {
+    width: 190px;
+    margin-left: 125px;
+    margin-top: -10px;
+}
+.lin2f1 {
+    width: 190px;
+    margin-left: 125px;
+    margin-top: -10px;
+}
+.lin2s1 {
+    width: 190px;
+    margin-left: 125px;
+    margin-top: -10px;
+}
+.lin2f {
+    width: 40px;
+    height: 40px;
+    margin-left: 360px;
+    margin-top: -40px;
+}
+.lin2ff {
+    width: 40px;
+    height: 40px;
+    margin-left: 360px;
+    margin-top: -40px;
+}
+.lin2fs {
+    width: 40px;
+    height: 40px;
+    margin-left: 360px;
+    margin-top: -40px;
+}
+.lin2s {
+    width: 60px;
+    height: 50px;
+    margin-left: 480px;
+    margin-top: -60px;
+}
+.lin2sf {
+    width: 60px;
+    height: 50px;
+    margin-left: 480px;
+    margin-top: -60px;
+}
+.lin2ss {
+    width: 60px;
+    height: 50px;
+    margin-left: 480px;
+    margin-top: -60px;
+}
+.lin3 {
+    width: 90px;
+    height: 40px;
+    margin-left: 125px;
+    margin-top: -65px;
+}
+.lin3f {
+    width: 90px;
+    height: 40px;
+    margin-left: 125px;
+    margin-top: -60px;
+}
+.lin3s {
+    width: 90px;
+    height: 40px;
+    margin-left: 125px;
+    margin-top: -60px;
+}
+.lin4 {
+    width: 70px;
+    height: 30px;
+    margin-left: 580px;
+    margin-top: -120px;
+}
+.lin4f {
+    width: 70px;
+    height: 30px;
+    margin-left: 580px;
+    margin-top: -120px;
+}
+.lin4s {
+    width: 70px;
+    height: 30px;
+    margin-left: 580px;
+    margin-top: -120px;
+}
+.lin5 {
+    width: 70px;
+    height: 40px;
+    margin-left: 580px;
+}
+.lin5f {
+    width: 70px;
+    height: 40px;
+    margin-left: 580px;
+}
+.lin5s {
+    width: 70px;
+    height: 40px;
+    margin-left: 580px;
+}
+.picture {
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+    float: left;
+}
+.right {
+    margin-top: -30px;
+    margin-left: 180px;
+    float: left;
+}
+a {
+    text-decoration: none;
+    background: #FFFFFF;
+}
+.delet {
+    float: right;
+    margin-top: -20px;
+}
+.checkboxFour {
+    margin-right: 100px;
+    width: 22px;
+    top: 20px;
+    height: 22px;
+    background: #ddd;
+    border-radius: 100px;
+    position: relative;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkboxFour label {
+    display: block;
+    width: 17px;
+    height: 17px;
+    border-radius: 300px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    z-index: 1;
+    background: #333;
+    -webkit-box-shadow: inset 0px 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 1px 3px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+.checkboxFour input[type=checkbox]:checked + label {
+    background: #26ca28;
+}
+#backs {
+    color: #000000;
+}
+.submint {
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    background-color: #555a5e;
+    height: 50px;
+    color: aliceblue;
+    margin-top: 70px;
+    margin-left: 400px;
+    font: 18px "微软雅黑";
+    font-weight: 600;
+}
+button:hover {
+    background-color: #4493ce;
+}
+.log-top {
+    width: 100%;
+    height: 47px;
+    opacity: 0.5;
+    margin-top: -10px;
+}
+.usename {
+    margin-top: 20px;
+    float: right;
+    margin-right: -80px;
+}
+.quit {
+    margin-top: 18px;
+    float: right;
+    margin-right: -120px;
+}
+.names {
+    color: #000000;
+}
+body, ul, li {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    width: 1366px;
+    height: 768px;
+}
+#header {
+    width: 1366px;
+    height: 90px;
+}
+#logo {
+    width: 172px;
+    height: 50px;
+    margin-left: 320px;
+    margin-top: 40px;
+}
+#logo img {
+    margin-left: 61px;
+    margin-top: 48px;
+}
+#nav1 {
+    width: 800px;
+    height: 50px;
+    margin-top: 30px;
+}
+#nav1 ul a:hover {
+ background-image:url("../image/hh.png") background-repeat: no-repeat;
+}
+#nav1 ul li {
+    float: left;
+    width: 120px;
+    height: 39px;
+    margin-top: 60px;
+    text-align: center;
+    line-height: 39px;
+    margin-left: 40px;
+}
+#nav1 a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    width: 106px;
+    height: 39px;
+    line-height: 39px;
+    margin-right: 238px;
+    border-radius: 30px;
+}
+.find {
+    width: 340px;
+    height: 340px;
+}
+.end {
+    width: 420px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.math {
+    margin-top: -50px;
+    margin-left: 65px;
+    width: 280px;
+    letter-spacing: 7px;
+}
